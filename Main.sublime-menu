@@ -7,7 +7,16 @@
                 "id": "nucleotides",
                 "children": [
                     {
-                        "command": "reverse_complement"
+                        "command": "reverse_complement",
+                        "caption": "Reverse complement"
+          },
+                    {
+                        "command": "reverse",
+                        "caption": "Reverse"
+          },
+                    {
+                        "command": "complement",
+                        "caption": "Complement"
           }
         ]
       }

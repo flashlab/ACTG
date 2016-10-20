@@ -1,6 +1,14 @@
 [
     {
-        "keys": ["ctrl+shift+r"],
+        "keys": ["ctrl+r", "ctrl+c"],
         "command": "reverse_complement"
-    }
+    },
+    {
+        "keys": ["ctrl+shift+r"],
+        "command": "reverse"
+    },
+    {
+        "keys": ["ctrl+shift+c"],
+        "command": "complement"
+    },
 ]

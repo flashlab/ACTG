@@ -1,14 +1,17 @@
-ACTG for SublimeText
+ATCG for SublimeText
 ====================
 
-Nucleotide syntax highlighting and reverse complement support. This is handy for "stare at the screen and squint" DNA analysis.
+Nucleotide syntax highlighting and reverse complement support. This is handy for "stare at the screen and squint" DNA analysis. Upgrade from hackerfriendly/ACTG.
 
 Features
 --------
 
 * Choose 'Nucleotides' syntax highlighting to colorize ACTG and N.
 * Automatically associates .fa, .fasta, .fq, .fastq, .sam, and .vcf files.
-* Make a selection and hit Control-Shift-R (or Command-Shift-R on Mac) to replace it with the reverse complement.
+* Three kinds of conversion are supportted: 
+  * Make a selection and hit Control-Shift-R (or Command-Shift-R on Mac) to do **reverse **.
+  * Control-Shift-C (or Command-Shift-C on Mac) to make **complementation**.
+  * command Ctrl+K, Ctrl+F (this mean hold Ctrl, press R then press C, release Ctrl) to replace it with **reverse complement**.
 
 Bugs
 ----
@@ -20,9 +23,4 @@ Patches welcome.
 Releases
 --------
 
-* 0.0.1: Initial release, 2014-09-29
-
-Thanks
-------
-
-Developed at Spiral Genetics, http://www.spiralgenetics.com/
+* 1.0.0: Initial release, 2016-10-20
