@@ -9,9 +9,9 @@ Features
 * Choose 'Nucleotides' syntax highlighting to colorize ACTG and N.
 * Automatically associates .fa, .fasta, .fq, .fastq, .sam, and .vcf files.
 * Three kinds of conversion are supportted: 
-  * Make a selection and hit Control-Shift-R (or Command-Shift-R on Mac) to do **reverse **.
+  * Make a selection and hit Control-Shift-R (or Command-Shift-R on Mac) to do **reverse**.
   * Control-Shift-C (or Command-Shift-C on Mac) to make **complementation**.
-  * command Ctrl+K, Ctrl+F (this mean hold Ctrl, press R then press C, release Ctrl) to replace it with **reverse complement**.
+  * command Ctrl+R, Ctrl+C (this mean hold Ctrl, press R then press C, release Ctrl) to replace it with **reverse complement**.
 
 Bugs
 ----
